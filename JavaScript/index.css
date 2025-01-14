@@ -1,0 +1,49 @@
+body {
+    text-align: center;
+}
+
+.text {
+    font-family: Arial;
+    width: 400px;
+    display: inline-block;
+}
+h1,h2 {
+    font-size: 50px;
+}
+button {
+    color: white;
+    border: none;
+    width: 100;
+    height: 50px;
+    font-size: 40px;
+    border-radius: 15px;
+    transition: opacity 0.15s;
+}
+
+button:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+button:active {
+    opacity: 0.3;
+}
+
+.add-button {
+    background-color: blue;
+    margin: 5px;
+}
+
+.subtract-button {
+    background-color: red;
+    margin: 5px;
+}
+
+.save-btn {
+    background-color: rgb(33, 221, 33);
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 10px;
+    font-size: 30px;
+}
